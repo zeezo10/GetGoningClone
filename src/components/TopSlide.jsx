@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 
 import "./styles.css";
 
-import { Pagination, Navigation } from "swiper/modules";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 import photo1 from "../assets/mainSlide/download.png";
 import photo2 from "../assets/mainSlide/download1.png";
@@ -20,14 +20,14 @@ export default function TopSlide() {
       spaceBetween={30}
       centeredSlides={true}
       autoplay={{
-        delay: 7000,
+        delay: 5000,
         disableOnInteraction: false,
       }}
       pagination={{
         clickable: true,
       }}
       navigation={true}
-      modules={[Pagination, Navigation]}
+      modules={[Pagination, Navigation , Autoplay]}
       className="mySwiper"
     >
       <SwiperSlide
