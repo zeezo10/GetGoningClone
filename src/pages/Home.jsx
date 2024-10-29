@@ -13,7 +13,7 @@ import PrivateTrip from "../components/PrivateTrip";
 export default function Home() {
   return (
     <body className="font-poppins text-[#212529]">
-      <nav>
+      <nav className="h-40">
         <NavBar />
       </nav>
       <main>
