@@ -44,6 +44,7 @@ export default function KataMereka() {
                   : "scale-95 shadow-md"
               } hover:-translate-y-2`}
             >
+                <div className={`${index != value ? "absolute inset-0 bg-black opacity-20" : ""}`}></div>
               <div className="bg-slate-500 h-40 w-64 ">
                 <img src={slide.photo} alt="" />
               </div>
