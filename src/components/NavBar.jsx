@@ -27,7 +27,7 @@ export default function NavBar() {
     <div
       className={`${
         fixed ? "bg-slate-200 bg-opacity-50 backdrop-blur-sm fixed top-0 left-0 right-0 z-50" : ""
-      } w-full ${fixed ? "h-[85px]" : "h-[150px]"} rounded-full flex flex-row items-center p-2 justify-center transition-colors duration-300`}
+      }  ${fixed ? "h-[85px] mx-[25px]  my-3"  : "h-[150px] w-full"} rounded-full flex flex-row items-center p-2 justify-center transition-colors duration-300`}
     >
       <div>
         <div className={`${fixed ? "h-16 w-16" : "h-auto w-52"} rounded-full flex justify-center items-center`}>
